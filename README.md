@@ -16,9 +16,9 @@ Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and
 	c) from PIL import Image \
 	d) import cv2 \
 	e) import imutils \
-	f) import argparse \
+	f) import argparse 
 
-Run the command: python3 main.py --inp1 Path to template image --inp2 Path to ideal answerkey --inp3 Path to the to be tested OMR sheet. For default you can use :\ python3 main.py --inp1 ./Dataset/i1.jpeg --inp2 ./Dataset/i2.jpeg --inp3 ./Dataset/test.jpeg 
+Run the command: python3 main.py --inp1 Path to template image --inp2 Path to ideal answerkey --inp3 Path to the to be tested OMR sheet. For default you can use : python3 main.py --inp1 ./Dataset/i1.jpeg --inp2 ./Dataset/i2.jpeg --inp3 ./Dataset/test0.jpeg 
 
 The program will give outputs as : 
 	a) Points Matching for the Ideal answer sheet

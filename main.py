@@ -222,8 +222,8 @@ def plotting_final_image_with_color(o,t,img,pts):
     #print(correct)
     plt.figure(figsize=(15,15))
     plt.imshow(np.array(img),cmap='gray')
-    plt.scatter(correct[:,0],correct[:,1],c = 'g')
-    plt.scatter(wrong[:,0],wrong[:,1],c = 'r')
+    plt.scatter(correct[:,0],correct[:,1],c = 'g',s=15)
+    plt.scatter(wrong[:,0],wrong[:,1],c = 'r',s=15)
     plt.title("Right Answers by Green & Wrong answers by Red and unresponded are left blank")
     plt.show()
 
