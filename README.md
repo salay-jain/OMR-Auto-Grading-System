@@ -3,31 +3,28 @@
 The major goal of our project is to find the result of the candidate by matching their response with the ideal responses of the questions provided.
 
 Team Members : 
-Salay Jain &
-Harsh Sharma
+* Salay Jain 
+* Harsh Sharma
 
-Working:
+# Working:
 
 Download the zip file of the repo or clone the repo from the link : https://github.com/salay-jain/OMR-Auto-Grading-System . Or you can use the command git clone https://github.com/salay-jain/OMR-Auto-Grading-System
 
-requirements.txt file will give all the requirements needed to run the code main.py. Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and argparse. Make sure to run these commands witout any error : \
-	a) import numpy \
-	b) import matplotlib.pyplot \
-	c) from PIL import Image \
-	d) import cv2 \
-	e) import imutils \
-	f) import argparse 
-	g) Go through requirements.txt for more depedencies
+Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and argparse. Make sure to run these commands witout any error
+*  import numpy 
+*  import matplotlib.pyplot 
+* from PIL import Image 
+* import cv2 
+* import imutils 
+* import argparse 
 
-For SHIFT and SURF related queries use link : https://stackoverflow.com/questions/18561910/cant-use-surf-sift-in-opencv 
-
-Run the command: python3 main.py --inp1 Path to template image --inp2 Path to ideal answerkey --inp3 Path to the to be tested OMR sheet. For default you can use : python3 main.py --inp1 ./Dataset/i1.jpeg --inp2 ./Dataset/i2.jpeg --inp3 ./Dataset/test0.jpeg 
+Run the command: python3 main.py --inp1 Path to template image --inp2 Path to ideal answerkey --inp3 Path to the to be tested OMR sheet. For default you can use : `python3 main.py --inp1 ./Dataset/i1.jpeg --inp2 ./Dataset/i2.jpeg --inp3 ./Dataset/test0.jpeg`
 
 The program will give outputs as : 
-	a) Points Matching for the Ideal answer sheet
-	b) Points Matching for the Students answer sheet
-	c) Checked OMR - Right Answers by Green & Wrong answers by Red and unresponded are left blank
-	d) Total result
+* Points Matching for the Ideal answer sheet
+* Points Matching for the Students answer sheet
+* Checked OMR - Right Answers by Green & Wrong answers by Red and unresponded are left blank
+* Total result
 
 To see our other works and observations refer to the python notebook (.ipynb) file where our algoritm is analysed for many diiferet types of input and output.
 
