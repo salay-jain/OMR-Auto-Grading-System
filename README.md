@@ -10,13 +10,16 @@ Working:
 
 Download the zip file of the repo or clone the repo from the link : https://github.com/salay-jain/OMR-Auto-Grading-System . Or you can use the command git clone https://github.com/salay-jain/OMR-Auto-Grading-System
 
-Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and argparse. Make sure to run these commands witout any error : \
+requirements.txt file will give all the requirements needed to run the code main.py. Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and argparse. Make sure to run these commands witout any error : \
 	a) import numpy \
 	b) import matplotlib.pyplot \
 	c) from PIL import Image \
 	d) import cv2 \
 	e) import imutils \
 	f) import argparse 
+	g) Go through requirements.txt for more depedencies
+
+For SHIFT and SURF related queries use link : https://stackoverflow.com/questions/18561910/cant-use-surf-sift-in-opencv 
 
 Run the command: python3 main.py --inp1 Path to template image --inp2 Path to ideal answerkey --inp3 Path to the to be tested OMR sheet. For default you can use : python3 main.py --inp1 ./Dataset/i1.jpeg --inp2 ./Dataset/i2.jpeg --inp3 ./Dataset/test0.jpeg 
 
