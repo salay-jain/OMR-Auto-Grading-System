@@ -10,13 +10,13 @@ Working:
 
 1) Download the zip file of the repo or clone the repo from the link : https://github.com/salay-jain/OMR-Auto-Grading-System
 
-2) Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and argparse. Make sure to run these commands witout any error :
-	a) import numpy
-	b) import matplotlib.pyplot
-	c) from PIL import Image
-	d) import cv2
-	e) import imutils
-	f) import argparse
+2) Some of the python3 libraries required are : numpy, matplotlib, PIL, imutils and argparse. Make sure to run these commands witout any error : -\
+	a) import numpy -\
+	b) import matplotlib.pyplot -\
+	c) from PIL import Image -\
+	d) import cv2 -\
+	e) import imutils -\
+	f) import argparse -\
 
 3) Run the command: python3 main.py --inp1 Path to template image --inp2 Path to ideal answerkey --inp3 Path to the to be tested OMR sheet. For default you can use i1.jpeg i2.jpeg and test.jpeg in respective order.
 
